@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/accesoClientes.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu">
+            <img src="img/logo.png" alt="logo-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nacional.html">Nacional</a></li>
+                <li><a href="internacional.html">Internacional</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="seguimiento.html">Seguimiento</a></li>
+                <li><a href="accesoClientes.html">Acceso Clientes</a></li>
+                
+                
+
+            </ul>
+        </nav>
+    </header>
+
+
+        <div class="centrado">
+            <h2>Acceso a clientes</h2>
+            <form action="" id="formularioContacto" class="formularioContacto" onsubmit="return validarAcceso()">
+                <p>
+                    <label for="Usuario">Usuario *</label><br>
+                    <input type="text" placeholder="Usuario" class="inputContacto" id="usuario">
+                    <div class="usuarioError rojo msn"></div>
+                </p>
+
+                <p>
+                    <label for="password">Contraseña *</label><br>
+                    <input type="password" placeholder="Contraseña" class="inputContacto" id="pass">
+                    <div class="passError rojo msn"></div>
+
+                    
+                </p>
+                
+                <input type="submit" value="Enviar" class="boton">
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footerDiv">
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Datos de contacto</span></h2>
+                <p>Sede Principal Calle La Paz Nave 45 Madrid 28003</p>
+                <p>Teléfono: 926 777 777</p>
+                <p>Email: info@uship.com</p>
+    
+            </div>
+
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Redes Sociales</span></h2>
+            </div>
+            
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Noticias</span></h2>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

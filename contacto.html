@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/contacto.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu">
+            <img src="img/logo.png" alt="logo-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nacional.html">Nacional</a></li>
+                <li><a href="internacional.html">Internacional</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="seguimiento.html">Seguimiento</a></li>
+                <li><a href="accesoClientes.html">Acceso Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedorContacto">
+
+        <div class="col-6">
+            <h2>CONTACTA CON NOSOTROS</h2>
+            <form action="" id="formularioContacto" class="formularioContacto" onsubmit="return validarFormulario()">
+                <p>
+                    <label for="nombre">Nombre *</label><br>
+                    <input type="text" placeholder="Nombre" class="inputContacto" id="nombre">
+                    <div class="nombreError rojo msn"></div>
+                </p>
+
+                <p>
+                    <label for="email">Email *</label><br>
+                    <input type="text" placeholder="Email" class="inputContacto" id="email">
+                    <div class="emailError rojo msn"></div>
+                    
+                </p>
+
+                <p>
+                <p>Indica tu consulta:</p>
+                <textarea name="consulta" id="consulta" cols="100" rows="10"></textarea>
+                </p>
+                
+                <input type="submit" value="Enviar" class="boton">
+
+
+            </form>
+
+        </div>
+
+        <div class="col-6">
+            <img src="img/enviar-paqueteria.webp" alt="img-paqueteria" class="imgContacto">
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footerDiv">
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Datos de contacto</span></h2>
+                <p>Sede Principal Calle La Paz Nave 45 Madrid 28003</p>
+                <p>Teléfono: 926 777 777</p>
+                <p>Email: info@uship.com</p>
+    
+            </div>
+
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Redes Sociales</span></h2>
+            </div>
+            
+            <div class="col-4">
+                <h2><span style="color: #BF452A;">Noticias</span></h2>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
